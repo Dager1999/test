@@ -172,7 +172,7 @@ main()
 									cout<<"Autor: "; cin>>a;
 									cout<<"Gatunek: "; cin>>g;
 									cout<<"Wydawnictwo: "; cin>>w;
-									cout<<"Ile wypozyczono: "; cin>>i_w;
+									cout<<"Ile : "; cin>>i_w;
 									cout<<"Ile sztuk zostalo: "; cin>>i_sz;
 									cin.ignore();
 									biblioteka.DodajKolejny(n, a, g, w, i_w, i_sz);
